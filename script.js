@@ -26,13 +26,10 @@ for (let i = 1; i < numeros.length; i++) {
 console.log('Máximo: ', max);
 
 for (let i = 0; i < numeros.length; i++) {
-  if (numeros[i] >= 5) {
-    numeros[i]++;
-    console.log('ELEMENTO ITERADO + 1');
-  } else {
-    numeros[i]--;
-    console.log('ELEMENTO ITERADO - 1');
-  }
+  if (numeros[i] >= 5)
+    console.log(`${numeros[i]} + 1 = ${numeros[i]+1}`);
+  else
+    console.log(`${numeros[i]} - 1 = ${numeros[i]-1}`);
 }
 
 const palabras = ['eee', 'abc', 'hola', 'abc', 'a', 'abc', 'hola'];
